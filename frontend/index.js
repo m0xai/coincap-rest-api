@@ -1,9 +1,3 @@
-// import * as pureNav from '../pure-nav/src/nav';
-
-// const myNav = pureNav.create();
-
-// console.log(myNav);
-
 const price = async () => {
 	const response = await fetch("http://127.0.0.1:3000/url/");
 	if (!response.ok) {
